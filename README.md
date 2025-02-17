@@ -1,2 +1,3 @@
-# Solar-Landing-Page
-Basic Landing Page using HTML - CSS
+<h1 align="center"> Solar Landing Page </h1> <br>
+
+
