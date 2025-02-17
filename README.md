@@ -1,7 +1,7 @@
 <h1 align="center"> ⭐️ Solar Landing Page ⭐️ </h1> <br>
 
 <p align="center">
- <a href="https://ibb.co/XxVVnwJW"><img src="https://i.ibb.co/4RJJbQNF/1.png" alt="Website Preview" /></a>
+ <a href="https://postimg.cc/MfB0ypjY"><img src="https://postimg.cc/MfB0ypjY" alt="Website Preview" /></a>
 </p>
 
 ## Table of Contents
