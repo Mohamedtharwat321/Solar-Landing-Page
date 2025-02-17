@@ -1,9 +1,7 @@
 <h1 align="center"> ⭐️ Solar Landing Page ⭐️ </h1> <br>
 
 <p align="center">
-  <a href="#">
-    <img alt="Website Preview" title="Thumbnail" src="https://ibb.co/XxVVnwJW" width="450">
-  </a>
+ <a href="https://ibb.co/XxVVnwJW"><img src="https://i.ibb.co/4RJJbQNF/1.png" alt="1" border="0" /></a>
 </p>
 
 ## Table of Contents
