@@ -2,11 +2,10 @@
 
 <p align="center">
   <a href='https://postimg.cc/MfB0ypjY' target='_blank'>
-     <img src='https://i.postimg.cc/MfB0ypjY/1.png' border='0' width="100%" alt='1'/>
+     <img src='https://i.postimg.cc/MfB0ypjY/1.png' border='0' max-width="100%" alt='1'/>
   </a>
 </p>
 
-[1.png](https://postimg.cc/MfB0ypjY)
 
 ## Table of Contents
 
