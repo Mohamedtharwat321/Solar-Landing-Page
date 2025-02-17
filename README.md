@@ -27,22 +27,22 @@ This project is ideal for learning how to handle form validation, manage user da
 
 ## Features
 - **User Registration**:
-   -Users can register by providing their name, email, and password.
-   -Passwords are validated to ensure they match during registration
+    -Users can register by providing their name, email, and password.
+    -Passwords are validated to ensure they match during registration
 - **User Login**:
-   -Registered users can log in using their email and password.
+    -Registered users can log in using their email and password.
 - **Form Validation**:
-   -Real-time validation for fields like email, password, and confirm password.
-   -Error messages are displayed for invalid inputs.
+    -Real-time validation for fields like email, password, and confirm password.
+    -Error messages are displayed for invalid inputs.
 - **Local Storage**:
-   -User data is stored securely in the browser's local storage.
-   -Data persists even after the browser is closed.
+    -User data is stored securely in the browser's local storage.
+    -Data persists even after the browser is closed.
 - **Responsive Design**:
-   -The system is designed to work seamlessly on both desktop and mobile devices.
+    -The system is designed to work seamlessly on both desktop and mobile devices.
 - **Toast Notifications**:
-   -Uses Toastify.js to display success and error messages during registration and login.
+     -Uses Toastify.js to display success and error messages during registration and login.
 - **Tailwind CSS**:
-   -Utility-first CSS framework for rapid and responsive UI development.
+    -Utility-first CSS framework for rapid and responsive UI development.
   
 
 
