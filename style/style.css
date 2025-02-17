@@ -26,7 +26,7 @@ header img {
     justify-content: space-between;
     gap: 2.4rem;
     /* border: 1px solid red; */
-    width: 60%;
+    width: 65%;
 }
 
 .header-links {
@@ -39,6 +39,15 @@ header img {
     text-decoration: none;
     color: white;
     font-size: 1.7rem;
+    padding: 0.8rem 1rem;
+    border-radius: 6px;
+}
+
+.header-left ul a:hover {
+    background-color: var(--darkcyan);
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px;
+
+
 }
 
 .header-right {
@@ -130,10 +139,18 @@ header img {
     padding: 1rem 2.4rem;
 }
 
+.call-btn:hover {
+    background-color: var(--darkcyan);
+}
+
 .request-btn {
     background-color: var(--yellowp2);
     padding: 1rem 2.4rem;
     color: #2A3334;
+}
+
+.request-btn:hover {
+    background-color: var(--darkyellow);
 }
 
 /* ************************ */
@@ -311,17 +328,20 @@ header img {
     border-radius: 6px;
     background-color: var(--cyanp1);
 }
-.energy-info h2{
+
+.energy-info h2 {
     max-width: 70%;
     font-size: 3.2rem;
     line-height: 1.2;
     margin-bottom: 2.4rem;
 }
-.energy-info p{
+
+.energy-info p {
     color: var(--grayp3);
     line-height: 1.5;
     max-width: 82%;
 }
+
 .energy-boxs {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
@@ -339,9 +359,11 @@ header img {
 .energy-boxs p {
     margin-bottom: 2.4rem;
 }
-.energy-boxs h3{
+
+.energy-boxs h3 {
     max-width: 90%;
 }
+
 /* ************************ */
 /* values Section */
 /* ************************ */
@@ -530,6 +552,9 @@ footer {
     padding: 1.2rem 2.8rem;
     position: absolute;
     right: 0rem;
+}
+.footer-subscripe button:hover{
+    background-color: #eeae19;
 }
 
 .footer-second {
