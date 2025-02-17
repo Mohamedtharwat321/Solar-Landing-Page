@@ -1,7 +1,7 @@
 <h1 align="center"> ⭐️ Solar Landing Page ⭐️ </h1> <br>
 
 <p align="center">
-  <a href="https://gitpoint.co/">
+  <a href="#">
     <img alt="Solar" title="Thumbnail" src="https://imgur.com/a/WDpdmrL" width="450">
   </a>
 </p>
