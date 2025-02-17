@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="#">
-    <img alt="Solar" title="Thumbnail" src="https://imgur.com/a/WDpdmrL" width="450">
+    <img alt="Website Preview" title="Thumbnail" src="https://imgur.com/a/WDpdmrL.png" width="450">
   </a>
 </p>
 
