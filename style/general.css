@@ -1,0 +1,98 @@
+/* - Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 20 / 24 / 32 / 48 / 64 / 80 / 96 / 128 / 150 */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+    --cyanp1: #0B9586;
+    --yellowp2: #FFBB1C;
+    --grayp3: #475467;
+    --blackp4: #101828;
+
+}
+
+html {
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+
+}
+
+body {
+    line-height: 1;
+    font-family: "Inter", serif;
+    color: white;
+    font-size: 1.6rem;
+    overflow-x: hidden;
+}
+
+.space-x {
+    padding-right: 12rem;
+    padding-left: 12rem;
+}
+
+.space-y {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
+.btn {
+    display: inline-block;
+    border-radius: 25px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+
+.solar-boxs .box button,
+.energy-boxs .box button {
+    outline: none;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 1.6rem;
+    color: var(--cyanp1);
+    font-weight: 500;
+}
+
+.solar-boxs .box button i,
+.energy-boxs .box button {
+    margin-left: 0.4rem;
+}
+
+
+
+.value-boxes .value-box-info ,
+.energy-boxs .box{
+    padding: 2.4rem;
+    border-radius: 6px;
+    border: 1px solid #3CAB90;
+    background-color: rgb(60, 171, 144, 5%);
+}
+
+.value-box-info img ,
+.energy-boxs img{
+    margin-bottom: 1.6rem;
+}
+
+.value-box-info h3 ,
+.energy-boxs h3{
+    margin-bottom: 2.4rem;
+    color: var(--blackp4);
+    line-height: 1.3;
+}
+
+.value-box-info p ,
+.energy-boxs p{
+    color: var(--grayp3);
+    line-height: 1.4;
+}

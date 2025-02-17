@@ -1,0 +1,558 @@
+/* - Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 20 / 24 / 32 / 48 / 64 / 80 / 96 / 128 / 150 */
+
+/* ************************ */
+/* Header */
+/* ************************ */
+header {
+    background-color: var(--cyanp1);
+    padding: 1.2rem 0;
+}
+
+header img {
+    filter: grayscale(0.4);
+    mix-blend-mode: multiply;
+}
+
+.main-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2.4rem;
+    /* border: 1px solid red; */
+    width: 60%;
+}
+
+.header-links {
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+}
+
+.header-left ul a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.7rem;
+}
+
+.header-right {
+    color: white;
+    text-align: right;
+    /* border: 1px solid red; */
+}
+
+.header-right p {
+    font-size: 1.4rem;
+    margin-bottom: 0.4rem;
+}
+
+.header-right span {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+/* ************************ */
+/* Solar-Section */
+/* ************************ */
+.solar-section {
+    background-image: url("../images/solar.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+.solar-section-info {
+    position: absolute;
+    top: 10rem;
+}
+
+.progress-container {
+    display: flex;
+    align-items: center;
+    gap: 3.2rem;
+    width: 34rem;
+    margin-bottom: 9.6rem;
+}
+
+.progress-label {
+    font-size: 1.6rem;
+}
+
+.progress-bar {
+    flex-grow: 1;
+    height: 5px;
+    background: #444;
+    position: relative;
+}
+
+.progress-bar::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 40%;
+    /* Adjust width to represent progress */
+    background: white;
+}
+
+.solar-section h1 {
+    font-size: 4.4rem;
+    color: white;
+    max-width: 50%;
+    line-height: 1.3;
+    margin-bottom: 2.4rem;
+}
+
+.solar-section p {
+    color: white;
+    font-size: 1.8rem;
+    line-height: 1.5;
+    max-width: 50%;
+    margin-bottom: 2.4rem;
+}
+
+.solar-section-btns {
+    display: flex;
+    align-items: center;
+    gap: 2.4rem;
+}
+
+.call-btn {
+    background-color: var(--cyanp1);
+    color: white;
+    padding: 1rem 2.4rem;
+}
+
+.request-btn {
+    background-color: var(--yellowp2);
+    padding: 1rem 2.4rem;
+    color: #2A3334;
+}
+
+/* ************************ */
+/* info-Section */
+/* ************************ */
+.info-section {
+    color: black;
+}
+
+.info-section img {
+    width: 400px;
+
+}
+
+.info-section-box {
+    display: flex;
+    gap: 3.2rem;
+}
+
+.info-section-box h2 {
+    font-size: 3.4rem;
+    max-width: 75%;
+    line-height: 1.2;
+    margin-top: 0.8rem;
+    margin-bottom: 3.2rem;
+}
+
+.info-section-box p {
+    color: var(--grayp3);
+    line-height: 1.4;
+    max-width: 97%;
+    margin-bottom: 4.8rem;
+}
+
+.info-section-box span {
+    color: #84BD3A;
+    margin-right: 0.8rem;
+}
+
+.info-section-box li {
+    font-weight: 600;
+    margin-bottom: 1.4rem;
+}
+
+/* ************************ */
+/* Power-Section */
+/* ************************ */
+
+.power-section {
+    position: relative;
+}
+
+.power-section img {
+    width: 100%;
+}
+
+.power-section-info {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.power-section-info h2 {
+    margin-bottom: 2.8rem;
+    font-size: 3.8rem;
+    font-weight: 500;
+}
+
+.power-section-info p {
+    max-width: 70%;
+    line-height: 1.3;
+    margin-bottom: 2.8rem;
+}
+
+/* ************************ */
+/* Kits Section */
+/* ************************ */
+.kits-section-header {
+    color: black;
+    font-size: 3.8rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 2.4rem;
+}
+
+.kits-section-info {
+    color: var(--grayp3);
+    max-width: 85%;
+    line-height: 1.4;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 3.2rem;
+}
+
+.solar-boxs {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+.solar-boxs .box {
+    background-color: white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.solar-boxs .box-info {
+    padding: 2.4rem 1.6rem;
+}
+
+.solar-boxs .box img {
+    width: 100%;
+}
+
+.solar-boxs .box h3 {
+    color: black;
+    margin-bottom: 2.4rem;
+}
+
+.solar-boxs .box p {
+    color: var(--grayp3);
+    line-height: 1.3;
+    max-width: 95%;
+    margin-bottom: 2.4rem;
+}
+
+
+
+/* ************************ */
+/* Repairs Section */
+/* ************************ */
+.repairs-section {
+    position: relative;
+}
+
+.repairs-section img {
+    width: 100%;
+}
+
+.repair-info {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.555);
+    backdrop-filter: blur(24px);
+    padding: 3.4rem;
+    border-radius: 0.8rem;
+}
+
+.repair-info h2 {
+    font-size: 3.2rem;
+    font-weight: 500;
+    margin-bottom: 2.4rem;
+}
+
+.repair-info p {
+    line-height: 1.3;
+}
+
+/* ************************ */
+/* Energy Section */
+/* ************************ */
+.energy-section {
+    color: black;
+    display: flex;
+    gap: 0.8rem;
+    background-color: rgb(255, 187, 28, 5%);
+}
+
+.energy-info div {
+    display: inline-block;
+    padding: 1.4rem;
+    margin-bottom: 2.4rem;
+    border-radius: 6px;
+    background-color: var(--cyanp1);
+}
+.energy-info h2{
+    max-width: 70%;
+    font-size: 3.2rem;
+    line-height: 1.2;
+    margin-bottom: 2.4rem;
+}
+.energy-info p{
+    color: var(--grayp3);
+    line-height: 1.5;
+    max-width: 82%;
+}
+.energy-boxs {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 2.4rem;
+}
+
+.energy-boxs div {
+    background-color: rgb(60, 171, 144, 5%);
+}
+
+.energy-boxs img {
+    width: 100%;
+}
+
+.energy-boxs p {
+    margin-bottom: 2.4rem;
+}
+.energy-boxs h3{
+    max-width: 90%;
+}
+/* ************************ */
+/* values Section */
+/* ************************ */
+.value-sction {
+    color: black;
+}
+
+.value-header {
+    text-align: center;
+    font-size: 3.2rem;
+    margin-bottom: 2.4rem;
+    color: var(--blackp4);
+}
+
+.value-info {
+    text-align: center;
+    margin-bottom: 2.4rem;
+    color: var(--grayp3);
+}
+
+.value-boxes {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2.4rem;
+}
+
+
+
+/* ************************ */
+/* say Section */
+/* ************************ */
+.say-section {
+    color: black;
+    display: flex;
+    gap: 0.4rem;
+}
+
+.say-dot {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 4.8rem;
+}
+
+.dot-group {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.dot {
+    width: 0.8rem;
+    height: 0.8rem;
+    background-color: #D9D9D9;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.dot-selected {
+    background-color: #6B6B6B;
+}
+
+.say-dot span {
+    color: var(--cyanp1);
+    font-weight: 500;
+}
+
+
+.say-person {
+    background-color: rgb(60, 171, 144, 5%);
+    padding: 2.4rem;
+    border-radius: 8px;
+    width: 70%;
+}
+
+.say-info-text {
+    font-weight: 500;
+    line-height: 1.5;
+    font-size: 1.8rem;
+    max-width: 65%;
+    margin-bottom: 8rem;
+}
+
+.person-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.person {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+}
+
+.person h3 {
+    margin-bottom: 0.8rem;
+    font-size: 1.2rem;
+}
+
+.person p {
+    font-size: 1.2rem;
+}
+
+.arrows img {
+    cursor: pointer;
+}
+
+.say-info {
+    margin-top: 4.8rem;
+}
+
+.say-info img {
+    margin-bottom: 2.4rem;
+    width: 4.8rem;
+}
+
+.say-info h2 {
+    font-size: 3.2rem;
+    max-width: 55%;
+    line-height: 1.4;
+    margin-bottom: 3.2rem;
+}
+
+.say-info p {
+    max-width: 80%;
+    line-height: 1.4;
+}
+
+/* ************************ */
+/* footer */
+/* ************************ */
+footer {
+    background-color: #283646;
+    color: white;
+}
+
+.footer-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    border-bottom: 1px solid #71777D;
+    padding-bottom: 4.8rem;
+}
+
+.footer-links img {
+    height: 4.8rem;
+    margin-bottom: 3.2rem;
+}
+
+.footer-links ul {
+    display: flex;
+    align-items: center;
+    gap: 3.8rem;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-subscripe {
+    position: relative;
+    width: 30%;
+}
+
+.footer-subscripe p {
+    margin-bottom: 1.6rem;
+}
+
+.footer-subscripe input {
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    padding: 1.2rem 0.8rem;
+    width: 100%;
+    border: 1px solid white;
+    background-color: rgb(255, 255, 255, 9%);
+    color: white;
+}
+
+.footer-subscripe button {
+    background-color: #FFBB1C;
+    color: white;
+    padding: 1.2rem 2.8rem;
+    position: absolute;
+    right: 0rem;
+}
+
+.footer-second {
+    margin-top: 4.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-terms {
+    display: flex;
+    align-items: center;
+    gap: 2.4rem;
+    color: #92989F;
+    font-size: 1.4rem;
+}
+
+.footer-terms a {
+    text-decoration: none;
+    color: #92989F;
+}
+
+.copy-right {
+    color: #92989F;
+    font-size: 1.4rem;
+}

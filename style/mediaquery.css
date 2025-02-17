@@ -1,0 +1,349 @@
+/* ************************ */
+/* below 1120px  */
+/* ************************ */
+@media (max-width:70em) {
+    html {
+        font-size: 60%;
+    }
+
+    .space-x {
+        padding-right: 9rem;
+        padding-left: 9rem;
+    }
+
+    .header-right {
+        width: 25%;
+    }
+
+    .header-left {
+        width: 75%;
+    }
+
+    .say-info-text {
+        max-width: 85%;
+    }
+
+    .say-info h2 {
+        max-width: 70%;
+    }
+
+    .info-section-box h2 {
+        max-width: 94%;
+    }
+
+    .energy-info h2 {
+        max-width: 86%;
+    }
+
+    .main-header {
+        gap: 0.8rem;
+    }
+}
+
+/* ************************ */
+/* below 1016px  */
+/* ************************ */
+@media (max-width:63.5em) {
+    html {
+        font-size: 57.5%;
+    }
+
+    .space-x {
+        padding-right: 7rem;
+        padding-left: 7rem;
+    }
+
+    .main-header {
+        align-items: end;
+    }
+
+    .header-left {
+        margin-top: 0.8rem;
+        display: block;
+        width: 60%;
+    }
+
+    .header-left img {
+        width: 200px;
+    }
+
+    .header-right {
+        width: 40%;
+    }
+
+    .header-links {
+        gap: 4rem;
+        margin-top: 0.8rem;
+    }
+
+    .energy-info h2 {
+        max-width: 100%;
+    }
+
+    .solar-section h1 {
+        max-width: 100%;
+    }
+
+    .solar-section p {
+        max-width: 72%;
+    }
+
+    .info-section img {
+        width: 300px;
+        ;
+    }
+
+    .repair-info {
+        padding: 2.4rem;
+    }
+
+    .say-info {
+        width: 50%;
+    }
+
+    .say-info-text {
+        max-width: 100%;
+    }
+}
+
+/* ************************ */
+/* below 848px  */
+/* ************************ */
+@media (max-width:53em) {
+    html {
+        font-size: 55%;
+    }
+
+    .space-x {
+        padding-right: 5rem;
+        padding-left: 5rem;
+    }
+
+    .info-section img {
+        width: 230px;
+    }
+
+    .energy-section {
+        gap: 3.2rem;
+        flex-direction: column;
+    }
+
+    .repair-info {
+        padding: 1.6rem 2.4rem;
+    }
+
+    .repair-info h2 {
+        font-size: 2.4rem;
+    }
+
+    .repair-info p {
+        font-size: 1.4rem;
+    }
+
+    .say-section {
+        flex-direction: column;
+        gap: 3.2rem;
+    }
+
+    .say-info {
+        width: 100%;
+    }
+
+    .say-person {
+        width: 100%;
+    }
+
+    .footer-info {
+        gap: 3.2rem;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .footer-subscripe {
+        width: 100%;
+    }
+
+    .footer-second {
+        flex-direction: column;
+        gap: 2.4rem;
+    }
+}
+
+/* ************************ */
+/* below 698px  */
+/* ************************ */
+@media (max-width:44em) {
+    html {
+        font-size: 52%;
+    }
+
+    .space-x {
+        padding-right: 2.8rem;
+        padding-left: 2.8rem;
+    }
+
+    .solar-section-info {
+        padding: 0 1.2rem;
+        width: 100%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .repair-info {
+        padding: 1.4rem 2.2rem;
+    }
+
+    .repair-info h2 {
+        font-size: 2rem;
+    }
+
+    .repair-info p {
+        font-size: 1.2rem;
+    }
+
+    .info-section-box {
+        gap: 1.5rem;
+    }
+}
+
+/* ************************ */
+/* below 622px  */
+/* ************************ */
+@media (max-width:38em) {
+    html {
+        font-size: 50%;
+    }
+
+    .info-section-box {
+        flex-direction: column;
+    }
+
+    .info-section-box img {
+        justify-self: center;
+        width: 100%;
+    }
+
+    .power-section-info p {
+        max-width: 85%;
+        margin-bottom: 0.8rem;
+    }
+
+    .power-section-info h2 {
+        margin-bottom: 1.8rem;
+        font-size: 2.6rem;
+    }
+
+    .solar-section p {
+        max-width: 100%;
+    }
+
+    .solar-section h1 {
+        font-size: 3.2rem;
+    }
+
+    .solar-section-btns {
+        justify-content: center;
+    }
+
+    .header-left {
+        width: 70%;
+    }
+
+    .header-right {
+        width: 30%;
+    }
+}
+
+/* ************************ */
+/* below 512px  */
+/* ************************ */
+@media (max-width: 32em) {
+    .main-header {
+        flex-direction: column;
+        gap: 2.4rem;
+        align-items: start;
+    }
+
+    .header-right {
+        text-align: left;
+        width: 100%;
+    }
+
+    .header-left {
+        width: 100%;
+        gap: 1rem;
+    }
+
+    .power-section-info p {
+        max-width: 100%;
+        margin-bottom: 0.6rem;
+    }
+
+    .power-section-info h2 {
+        margin-bottom: 1.6rem;
+        font-size: 1.8rem;
+    }
+
+    .repair-info {
+        padding: 1.2rem 2rem;
+    }
+
+    .repair-info h2 {
+        font-size: 1.6rem;
+        margin-bottom: 0.4rem;
+    }
+
+    .repair-info p {
+        font-size: 0.7rem;
+    }
+
+    .person-box {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .person-box .arrows {
+        align-self: end
+    }
+
+    .arrows img {
+        width: 30px;
+    }
+
+    .footer-terms {
+        gap: 1.4rem;
+    }
+
+    .footer-info {
+        gap: 3.2rem;
+    }
+
+    .footer-links ul {
+        gap: 1.6rem;
+    }
+
+    .request-btn {
+        padding: 0.8rem 1.8rem;
+    }
+}
+
+/* ************************ */
+/* below 400px  */
+/* ************************ */
+@media (max-width: 25em) {
+    .space-x {
+        padding-right: 2.2rem;
+        padding-left: 2.2rem;
+    }
+
+    .power-section-info p {
+        margin-bottom: 0.7rem;
+        font-size: 1.4rem;
+    }
+
+    .power-section-info h2 {
+        margin-bottom: 1.5rem;
+        font-size: 1.4rem;
+    }
+}
