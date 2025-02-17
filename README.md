@@ -1,7 +1,9 @@
 <h1 align="center"> ⭐️ Solar Landing Page ⭐️ </h1> <br>
 
 <p align="center">
-  <a href='https://postimg.cc/MfB0ypjY' target='_blank'><img src='https://i.postimg.cc/MfB0ypjY/1.png' border='0' alt='1'/></a>
+  <a href='https://postimg.cc/MfB0ypjY' target='_blank'>
+     <img src='https://i.postimg.cc/MfB0ypjY/1.png' height="1100" border='0' alt='1'/>
+  </a>
 </p>
 
 ## Table of Contents
