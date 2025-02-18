@@ -16,7 +16,7 @@
 
 
 ## Introduction
-This is a responsive landing page for a solar panel installation company. The project is built using HTML and CSS, with a focus on clean design, user-friendly navigation, and responsiveness across various devices.
+This is a responsive landing page for a solar panel installation company. The project is built using HTML and CSS, with a focus on clean design, user-friendly navigation, and responsiveness across various devices. <br>
 Live Demo: https://mohamedtharwat321.github.io/Solar-Landing-Page/
 
 ## Features
